@@ -1,0 +1,22 @@
+#container {
+    display:flex;
+    flex-direction: column;
+    width: 1500px;
+    height: 1500px;
+}
+
+.column {
+    border: 2px solid black;
+    display: flex;
+    flex-grow: 1;
+}
+
+.rows {
+    border: 2px solid black;
+    flex-grow: 1;
+}
+
+.rows:hover {
+    background-color: aqua;
+}
+
